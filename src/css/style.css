@@ -1,0 +1,160 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+body {
+    background-color: #EAEAEA;
+    /* Soft Gray */
+    color: #1C1C1C;
+    /* Charcoal Gray */
+}
+
+/* Header */
+header {
+    background-color: #3A2E75;
+    /* Dark Indigo */
+    color: #EAEAEA;
+    /* Soft Gray */
+}
+
+header h1 {
+    font-size: 5rem;
+    line-height: normal;
+}
+
+.highlight {
+    font-size: 5rem;
+    line-height: normal;
+    display: inline;
+    color: #00c6c6;
+}
+
+/* Navigation */
+nav {
+    background-color: #3A2E75;
+    /* Dark Indigo */
+}
+
+nav ul li , .active{
+    padding:  0.7rem 1rem ;
+    width: 6.25rem;
+    border-radius: 0.45rem;
+    border: 1px solid #00B8A9;
+    /* Darker Teal */
+}
+
+nav ul li a {
+    color: #EAEAEA;
+    /* Soft Gray */
+}
+
+aside span {
+    color: #717171;
+}
+
+nav li:hover, .active {
+    background-color: #00B8A9;
+    /* Darker Teal */
+    /* Soft Gray */
+}
+
+nav li a:hover  {
+    color: #EAEAEA;
+
+}
+
+/* Links */
+a {
+    color: #006666;
+    /* Darker Teal */
+}
+
+a:focus,
+a:hover {
+    color: #3A2E75;
+    /* Dark Indigo */
+}
+
+.comments a:first-of-type {
+    color: #2c235a;
+}
+
+.comments a:first-of-type:hover {
+    color: #00c6c6;
+}
+
+.comments a::after {
+    content: "|";
+    color: #000000;
+    /* Dark Cyan */
+    padding-left: 0.5rem;
+}
+/* Headers */
+h2 {
+    font-size: 1.8rem;
+    color: #3A2E75;
+    /* Dark Indigo */
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #1C1C1C;
+    /* Charcoal Gray */
+}
+
+/* Inputs */
+input,
+textarea {
+    width: 85%;
+    border: 1px solid #3A2E75;
+    /* Dark Indigo border */
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+textarea {
+    height: 10%;
+}
+
+/* Footer */
+footer {
+    background-color: #3A2E75;
+    /* Dark Indigo */
+    color: #EAEAEA;
+    /* Soft Gray */
+}
+
+footer h3 {
+    color: #EAEAEA;
+    font-size: 1.6rem;
+}
+
+.footer-nav ul li a {
+    color: #EAEAEA;
+    /* Soft Gray */
+}
+
+footer a {
+    color: #00c6c6;
+}
+
+footer a:hover {
+    color: #EAEAEA;
+}
+
+.footer-nav ul li a:hover {
+    color: #00c6c6;
+    /* Brighter Footer Teal */
+}
+
+.base_footer {
+    background-color: #2c235a;
+    border-top: solid 0.15rem #006666;
+    /* Darker Teal */
+}

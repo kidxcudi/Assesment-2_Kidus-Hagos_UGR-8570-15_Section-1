@@ -1,0 +1,146 @@
+header {
+    padding: 3rem 17% 0;
+}
+
+header p {
+    padding-left: 20rem;
+    line-height: 0;
+    font-size: 1.3em;
+}
+
+header h1 {
+    padding-bottom: 2rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content:space-between;
+    max-width: 25%;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    margin: 0 17%;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+h3 {
+    padding: 0 0 0.7rem 0;
+}
+
+nav ul li a {
+    padding: 1rem 0;
+}
+
+ul li a {
+    text-decoration: none;
+}   
+
+ul li {
+    padding: 0.2rem 0;
+}
+
+main {
+    max-width: 50%;
+    margin-left:17% ;
+}
+
+.blogs img {
+    width: 100%;
+}
+
+.home_main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem; 
+}
+
+.comments {
+    padding: 0 0 1.5rem 0;
+}
+
+.about_article {
+    margin-bottom: 3rem;
+}
+
+aside {
+    float: right;
+    max-width: 17%;
+    margin-right: 15%;
+    padding: 1rem 0;
+}
+
+aside article {
+    margin-bottom: 1.5rem;
+}
+
+span, input, textarea {
+    display: block;
+}
+
+form button {
+    padding: 0.1rem 1rem;
+    margin: 0 0 1.3rem 0;
+}
+
+.inputbox {
+    margin: 1.3rem 0;
+}
+
+.footer_container{
+    max-width: 65%;
+    padding-left: 17%;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.image_gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.6rem;
+}
+
+footer article img {
+    width: 100px;
+}
+
+.aboutimg {
+    float: left;
+    padding-right: 1rem;
+}
+
+footer article {
+    max-width: 40%;
+    margin-right: 2rem;
+}
+
+.base_footer {
+    padding:1rem  17%;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.base_footer p {
+    margin-bottom: 0;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav ul li {
+    padding: 0 1.3rem;
+}
+
+
+
